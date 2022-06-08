@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "+pt2DG1TsOdQT8DWGxbnAlhkIv+pnNQebu6u5UaRqoc=",
+  "Source": "PortfolioII",
+  "BasePath": "_content/PortfolioII",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PortfolioII/wwwroot",
+      "Source": "PortfolioII",
+      "ContentRoot": "/Users/austin/Desktop/C#/ASPCore/MVC/PortfolioII/wwwroot/",
+      "BasePath": "_content/PortfolioII",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/austin/Desktop/C#/ASPCore/MVC/PortfolioII/wwwroot/css/style.css",
+      "SourceId": "PortfolioII",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/austin/Desktop/C#/ASPCore/MVC/PortfolioII/wwwroot/",
+      "BasePath": "_content/PortfolioII",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/style.css"
+    },
+    {
+      "Identity": "/Users/austin/Desktop/C#/ASPCore/MVC/PortfolioII/wwwroot/images/man-with-fish.jpeg",
+      "SourceId": "PortfolioII",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/austin/Desktop/C#/ASPCore/MVC/PortfolioII/wwwroot/",
+      "BasePath": "_content/PortfolioII",
+      "RelativePath": "images/man-with-fish.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/man-with-fish.jpeg"
+    }
+  ]
+}

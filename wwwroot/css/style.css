@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  font-size: 1.3rem;
+}
+
+.nav > li {
+  padding: .5rem 1rem;
+}
+
+.nav-item {
+  border-right: 2px solid black;
+}
+
+.body-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body-info > img {
+  width: 15vw;
+} 
+
+.about {
+  width: 25vw;
+  font-size: 1.3rem;
+}
+
+.projects {
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.proj {
+  display: flex;
+  gap: 2rem;
+  margin: 1rem;
+}
+
+.contact-form {
+  display: flex;
+  margin: 1rem;
+}
+
+form {
+  display: flex;
+}
+
+.form {
+  margin: 1rem;
+}

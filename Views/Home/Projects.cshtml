@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link rel="stylesheet" href="~/css/style.css"/>
+</head>
+<body>
+  <div class="container">
+    <ul class="nav">
+      <li class="nav-item"><a href="/">Home</a></li>
+      <li class="nav-item"><a href="projects">Projects</a></li>
+      <li><a href="contact">Contact</a></li>
+    </ul>
+    
+    <div class="body">
+      <h2>Here are some projects of mine!</h2>
+
+      <div class="projects">
+        @{
+          for (int i = 1; i < 4; i++)
+          {
+            <div class="proj">
+              <img src="~/images/man-with-fish.jpeg" alt="pic" style="width: 10vw">
+              <div class="proj-right">
+                <p>Project @i</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+              </div>
+            </div>
+          }
+        }
+      </div>
+    </div>
+  </div>
+</body>
+</html>
